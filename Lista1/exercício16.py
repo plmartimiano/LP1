@@ -1,0 +1,5 @@
+nome = input("Digite seu nome: ")
+salário = input("Digite seu salário atual: ")
+aumento = input("Digite o percentual de aumento: ")
+salário_atualizado = float(salário) + (float(salário) * float(aumento) / 100)
+print("O salário atualizado de", nome, "com o aumento solicitado, sera de :", salário_atualizado)

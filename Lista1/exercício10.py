@@ -1,0 +1,5 @@
+print ("Bem-vindo a nossa loja de frutas!")
+print ("OBrigado, qanto custa cada laranja?")
+print ("Cada laranja custa R$0.50")
+laranjas = input("Quantas laranjas você deseja? ")
+print ("O total da sua compra de laranjas é: R$", float(laranjas) * 0.50)

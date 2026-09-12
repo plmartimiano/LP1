@@ -1,0 +1,6 @@
+numero = input("Digite um número: ")
+numero_2 = input("Digite outro número: ")
+print("A soma é:", float(numero) + float(numero_2))
+print("A divisão é:", float(numero) / float(numero_2))
+print("A multiplicação é:", float(numero) * float(numero_2))
+print("A subtração é:", float(numero) - float(numero_2))

@@ -1,0 +1,5 @@
+nome = input ("qual é o seu nome? ")
+idade_2026= input ("qual é a sua idade? ")
+tempo = 100 - float(idade_2026)
+centenário = 2026 + float(tempo)
+print ("Olá", nome, "você vai completar 100 anos em", int(centenário))
